@@ -43,7 +43,8 @@ public class LoginCheck extends HttpServlet {
 	}
 	else
 	{
-		response.sendError(0, "Error.jsp");
+		//response.sendError( 0, "Error.jsp");
+		response.sendRedirect("Error.jsp");
 	}
 	}
 
